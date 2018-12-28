@@ -19,3 +19,5 @@ include_directories ("${PROJECT_SOURCE_DIR}")
 # define option explicitly for pretty ccmake/cmake-gui
 option(BUILD_SHARED_LIBS "Build libraries as .dll's/.so's" true)
 mark_as_advanced(CLEAR BUILD_SHARED_LIBS)# mark un-advanced
+
+add_subdirectory(2018_12_27)
