@@ -33,4 +33,3 @@
 --lineend=linux
 
 --exclude=build
---exclude=3rdParty
