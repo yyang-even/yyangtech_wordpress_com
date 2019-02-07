@@ -21,3 +21,4 @@ option(BUILD_SHARED_LIBS "Build libraries as .dll's/.so's" true)
 mark_as_advanced(CLEAR BUILD_SHARED_LIBS)# mark un-advanced
 
 add_subdirectory(2018_12_27)
+add_subdirectory(2019_02_26)
