@@ -1,0 +1,1 @@
+add_executable(lifetime_of_a_temporary lifetime_of_a_temporary.cpp)
