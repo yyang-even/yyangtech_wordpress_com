@@ -1,0 +1,2 @@
+AddPythonTest(setup_db_environment)
+AddPythonTest(problematic_test)
