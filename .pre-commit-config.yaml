@@ -1,0 +1,25 @@
+default_stages: [commit]
+repos:
+  - repo: https://github.com/yyang-even/yyLinuxScripts
+    rev: master
+    hooks:
+      - id: astyle-c
+      - id: astyle-cpp
+      - id: astyle-cs
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+        language_version: python3
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: check-executables-have-shebangs
+        stages: [commit]
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-xml
+      - id: check-yaml
+      - id: debug-statements
+      - id: trailing-whitespace
+        stages: [commit]
