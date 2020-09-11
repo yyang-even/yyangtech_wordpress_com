@@ -8,7 +8,7 @@
 Suite=$(lsb_release -cs)
 SOURCE_LIST="/etc/apt/sources.list.d/monetdb.list"
 
-cat <<EOF | sudo tee $SOURCE_LIST
+cat << EOF | sudo tee $SOURCE_LIST
 deb https://dev.monetdb.org/downloads/deb/ $Suite monetdb
 deb-src https://dev.monetdb.org/downloads/deb/ $Suite monetdb
 EOF
