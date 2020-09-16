@@ -1,2 +1,2 @@
-AddPythonTest(setup_db_environment)
-AddPythonTest(problematic_test)
+add_python_test(setup_db_environment)
+add_python_test(problematic_test)
